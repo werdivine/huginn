@@ -1,0 +1,14 @@
+{
+  "name": "Huginn Dev",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "web",
+  "workspaceFolder": "/usr/src/app",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "rebornix.Ruby",
+    "castwide.solargraph",
+    "esbenp.prettier-vscode"
+  ]
+}
